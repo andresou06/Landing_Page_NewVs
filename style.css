@@ -28,6 +28,7 @@ body {
         margin: 0;
         padding: 0;
         overflow-y:auto;
+        overflow-x: auto;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -172,12 +173,12 @@ hr {
     background-color: rgba(104, 102, 102, 0.6);
  }
 
-@media screen and (max-width: 20rem) {
+@media screen and (max-width: 10rem) {
 .secRow {
    display: flex;
    justify-content: center;
-   margin-left: 10em;
-   margin-right: 20em;
+   margin: 2rem;
+   
    border: solid rgba(251, 251, 251) 2px;
    border-radius: 2%;
    background-color: rgba(104, 102, 102, 0.6);
@@ -196,7 +197,7 @@ hr {
 .thirdRow {
     display: flex;
    justify-content: space-evenly;
-  margin: 1rem;
+  margin: 2rem;
 }
 }
 .thirdRow button {
@@ -231,6 +232,7 @@ hr {
 .fourthRow {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-left: 10em;
     margin-right: 20em;
 }
@@ -335,7 +337,7 @@ ul {
     gap: 10px;
     margin: 5px;
 } */
-@media screen and (max-width: 20rem) {
+@media screen and (max-width: 15rem) {
 dialog {
     background: linear-gradient(#6e6868, #ffffff);
 }
