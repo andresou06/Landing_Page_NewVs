@@ -23,12 +23,10 @@ body {
     color: rgba(255, 255, 255, 0.9);
     
 }
-@media screen and (max-width: 760px), (max-height: 900px) {
+@media screen and (max-width: 800px), (max-height: 900px) {
     body {
         margin: 0;
         padding: 0;
-        overflow-y:auto;
-        overflow-x: auto;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -44,9 +42,11 @@ body {
     }
 }
 
-@media screen and (max-width: 760px), (max-height: 900px) {
+@media screen and (max-width: 800px), (max-height: 900px) {
     .container {
         max-height: 100vh;
+        overflow-y:auto;
+        overflow-x: auto;
     }
  }
 
@@ -173,12 +173,12 @@ hr {
     background-color: rgba(104, 102, 102, 0.6);
  }
 
-@media screen and (max-width: 10rem) {
+@media screen and (max-width: 40rem) {
 .secRow {
    display: flex;
    justify-content: center;
    margin: 2rem;
-   
+
    border: solid rgba(251, 251, 251) 2px;
    border-radius: 2%;
    background-color: rgba(104, 102, 102, 0.6);
@@ -193,7 +193,7 @@ hr {
    justify-content: space-evenly;
   margin: 1rem;
 }
-@media screen and (max-width: 20rem) {
+@media screen and (max-width: 30rem) {
 .thirdRow {
     display: flex;
    justify-content: space-evenly;
@@ -232,9 +232,7 @@ hr {
 .fourthRow {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-left: 10em;
-    margin-right: 20em;
+   
 }
 }
 .fourthRow img {
