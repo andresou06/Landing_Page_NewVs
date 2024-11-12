@@ -23,7 +23,7 @@ body {
     color: rgba(255, 255, 255, 0.9);
     
 }
-@media (max-width: 760px), (max-height: 900px) {
+@media screen and (max-width: 760px), (max-height: 900px) {
     body {
         margin: 0;
         padding: 0;
@@ -34,7 +34,7 @@ body {
         background-attachment: fixed;
         background-image: linear-gradient(rgba(31, 31, 31, 0.8) , rgb(30, 29, 29,0.8)),
                         url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
-        min-height: 100vh;
+        max-height: 100vh;
         
         background-repeat: no-repeat;
         /* background-color: rgb(37, 37, 37); */
@@ -42,6 +42,13 @@ body {
         
     }
 }
+
+@media screen and (max-width: 760px), (max-height: 900px) {
+    .container {
+        max-height: 100vh;
+    }
+ }
+
 a {
     text-decoration: none;
     color: black;
@@ -57,7 +64,7 @@ a {
     margin-right: 30em;
     margin-top: 0.5em;
 }
-@media (max-width: 40rem) {
+@media screen and (max-width: 40rem) {
 .firstRow {
     display: flex;
     justify-content: center;
@@ -165,7 +172,7 @@ hr {
     background-color: rgba(104, 102, 102, 0.6);
  }
 
-@media (max-width: 20rem) {
+@media screen and (max-width: 20rem) {
 .secRow {
    display: flex;
    justify-content: center;
@@ -185,7 +192,7 @@ hr {
    justify-content: space-evenly;
   margin: 1rem;
 }
-@media (max-width: 20rem) {
+@media screen and (max-width: 20rem) {
 .thirdRow {
     display: flex;
    justify-content: space-evenly;
@@ -220,7 +227,7 @@ hr {
     margin-left: 10em;
     margin-right: 20em;
 }
-@media (max-width: 40rem) {
+@media screen and (max-width: 40rem) {
 .fourthRow {
     display: flex;
     justify-content: center;
@@ -328,7 +335,7 @@ ul {
     gap: 10px;
     margin: 5px;
 } */
-@media (max-width: 20rem) {
+@media screen and (max-width: 20rem) {
 dialog {
     background: linear-gradient(#6e6868, #ffffff);
 }
