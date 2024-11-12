@@ -1,0 +1,368 @@
+html {
+
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(65, 64, 64,0.8) , rgb(30, 29, 29,0.8)),
+                    url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
+    width: 100%;
+    height: 45rem;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: rgb(37, 37, 37);
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: grid;
+    /* grid-template-rows: repeat(8, 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr); */
+    width: 90%; /* Adapts to the screen width */
+    max-width: 1200px; /* Optional, to cap width on larger screens */
+   
+}
+
+
+.firstRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing:border-box;
+    border: solid transparent;
+    margin-left: 15em;
+    margin-right: 30em;
+    margin-top: 0.5em;
+}
+
+.profile {
+    border-radius: 100%;
+    max-height: 15em;
+    max-width: 15em;
+    border: solid rgb(128, 106, 128, 0.4) 3px;
+    
+}
+
+
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+
+}
+.englobe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(88, 85, 85) 2px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(117, 117, 115, 0.7);
+    box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
+    border-radius: 3%;
+    margin-left: 3em;
+    
+}
+
+#contact {
+   
+    font-size: 1.4rem;
+    background-color: rgba(208, 190, 240, 0.9);
+    border-radius: 5%;
+    box-sizing: border-box;
+    margin-top: 0.5em;
+    border: solid rgb(58, 58, 58) 4px;
+}
+
+#toggle {
+   
+    
+    font-size: 1.4rem;
+    background-color: rgba(190, 240, 215, 0.9);
+    box-shadow: 5px 5px 50px rgba(245, 243, 243, 0.4);
+    border-radius: 5%;
+    box-sizing: content-box;
+    border: solid rgb(135, 131, 131,0.5) 4px;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#download {
+    
+    font-size: 1.4rem;
+    background-color: rgb(239,240, 190,0.9);
+    border-radius: 2%;
+    margin-top: 0.5em;
+    box-sizing: content-box;
+    border: solid rgb(50, 50, 50)4px;
+  
+    
+}
+
+
+hr {
+    border: solid rgba(130, 120, 120, 0.7) 0.2em;
+    
+}
+
+.links {
+    background-color: rgb(228, 228, 182, 0.9);
+    max-width: 2em;
+    max-height: 2em;
+    object-fit: contain;
+    margin: 0.2em;
+    color: black;
+    flex-wrap: wrap;
+    border: solid rgb(50, 50, 50)2px;
+}
+
+
+.secRow {
+   display: flex;
+   justify-content: center;
+   margin-left: 10em;
+   margin-right: 20em;
+   border: solid rgba(251, 251, 251) 2px;
+   border-radius: 2%;
+   background-color: rgba(104, 102, 102, 0.6);
+}
+
+.bio {
+    font: italic;
+    white-space: wrap;
+}
+
+.thirdRow {
+    display: flex;
+   justify-content: center;
+   margin-left: 20rem;
+    margin-right: 25rem;
+    
+    
+}
+.thirdRow button {
+    font-size: 1.5em;
+    border-radius: 10%;
+    
+   
+    margin: 0.5em;
+
+
+}
+.thirdRow button:nth-child(1) {
+    background-color: rgb(174, 213, 247);
+    box-shadow: 10px 10px 5px rgba(191, 241, 233, 0.1);
+    padding: 0.5em;
+    margin-right: 5em;
+    border: solid rgb(255, 255, 255) 3px;
+    
+}
+
+.thirdRow button:nth-child(2) {
+    background-color: rgb(178, 230, 227);
+    box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
+    border: solid rgb(255, 255, 255) 3px;
+    padding: 0.5em;
+}
+
+
+/* Here to change the positions of the page by and large */
+.fourthRow {
+    display: flex;
+    justify-content: center;
+    margin-left: 10em;
+    margin-right: 20em;
+}
+
+.fourthRow img {
+    
+    box-sizing: content-box;
+
+    border-radius: 100%;
+    max-width: 5em;
+    max-height: 5em;
+    object-fit: contain;
+}
+
+
+/* .space_img:nth-child(1) .space_img:nth-child(2) .space_img:nth-child(3)  {
+    white-space: nowrap;
+}
+.space_img:nth-child(4) .space_img:nth-child(5) .space_img:nth-child(6) {
+
+} */
+.space_img {
+    white-space: pre-line;
+    
+    
+  
+}
+.cercle {
+    box-shadow: 1em 1em 3em rgba(224, 218, 150, 0.5);
+    box-sizing: content-box;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    background-color: azure;
+    border: solid rgb(146, 140, 140) 4px;
+
+}
+
+.thumbnails {
+    cursor: pointer;
+     
+    
+    z-index:999; 
+    transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out; 
+    
+     
+}
+
+.thumbnails:hover { 
+    opacity: 0.4;
+ }
+
+progress {
+    font-size: 2em;
+    
+    
+    
+}
+
+#FR {
+    max-width: 2rem;
+    max-height: 2rem;
+    object-fit: contain;
+    border: solid rgb(11, 11, 11) 1px;
+    
+}
+
+#EN {
+    max-width: 2rem;
+    max-height: 2rem;
+    object-fit: contain;
+    border: solid black 1px;
+   
+}
+
+#PT {
+    max-width: 2rem;
+    max-height: 2rem;
+    object-fit: contain;
+    border: solid black 1px;
+    
+    
+}
+
+ul {
+    box-shadow: 10px 10px 50px #817f7f;
+    border: solid white 2px;
+    background-color: rgba(90, 90, 90, 0.3);
+    
+}
+
+
+/* Getting dialogs more stylish
+.chakra-petch-bold {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .project {
+    gap: 10px;
+    margin: 5px;
+} */
+dialog {
+    background: linear-gradient(#6e6868, #ffffff);
+}
+
+dialog button {
+    width: 4em;
+    height: 3em;
+    font: 1em sans-serif;
+    border: solid rgb(109, 105, 105) 2px;
+   
+}
+dialog h2 {
+    
+    box-sizing:content-box;
+    max-width: fit-content;
+    background-color: rgb(255, 215, 0, 0.6);
+    border: solid black 2px;
+}
+
+.auto {
+    line-break: auto;
+    align-content: start;
+  }
+
+dialog .my-popover2 {
+    display: flex;
+    flex-direction:row;
+    max-width: fit-content;
+    line-break: auto;
+    justify-content: flex-start;
+    margin: 1em;
+}
+dialog .available {
+    max-width: 30rem;
+}
+
+dialog #same {
+    margin: 1em;
+    font: O.8em sans-serif;
+    box-sizing: content-box;
+    border: solid rgb(40, 40, 40, 0.5) 2px;
+}
+
+dialog #my-popover3{
+    display: grid;
+    grid-template-columns: repeat(3 1fr 3fr 1fr);
+    max-width: 40rem;
+    max-height: 35rem;
+}
+
+dialog .slider {
+    display: flex;
+    justify-content: center;
+    max-width: 40rem;
+    max-height: 35rem;
+    border: solid black 2px;
+    background-color: #ffffff;
+    
+}
+dialog .slider  img {
+    
+    width: 30rem;
+    height: 25rem;
+
+}
+
+dialog .slider button {
+    align-items: baseline;
+    font-size: 3rem;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    position: relative;
+    top: 10rem;
+   
+    border: solid transparent;
+}
