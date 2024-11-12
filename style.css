@@ -42,7 +42,7 @@ body {
     }
 }
 
-@media screen and (max-width: 800px), (max-height: 900px) and (orientation: portrait)  {
+@media screen and (orientation: portrait)  {
     .container {
         max-height: 100vh;
         overflow-y:auto;
@@ -198,7 +198,7 @@ hr {
     display: flex;
    justify-content: space-evenly;
   margin: 2rem;
-  margin-left: 10rem;
+  margin-right:10rem;
 }
 }
 .thirdRow button {
