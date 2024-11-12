@@ -23,7 +23,7 @@ body {
     color: rgba(255, 255, 255, 0.9);
     
 }
-@media screen and (max-width: 800px), (max-height: 900px) {
+@media screen and (max-width: 800px), (max-height: 900px) and (orientation: portrait)  {
     body {
         margin: 0;
         padding: 0;
@@ -42,7 +42,7 @@ body {
     }
 }
 
-@media screen and (max-width: 800px), (max-height: 900px) {
+@media screen and (max-width: 800px), (max-height: 900px) and (orientation: portrait)  {
     .container {
         max-height: 100vh;
         overflow-y:auto;
@@ -65,7 +65,7 @@ a {
     margin-right: 30em;
     margin-top: 0.5em;
 }
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 40rem) and (orientation: portrait)  {
 .firstRow {
     display: flex;
     justify-content: center;
@@ -173,7 +173,7 @@ hr {
     background-color: rgba(104, 102, 102, 0.6);
  }
 
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 40rem) and (orientation: portrait)  {
 .secRow {
    display: flex;
    justify-content: center;
@@ -193,7 +193,7 @@ hr {
    justify-content: space-evenly;
   margin: 1rem;
 }
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 30rem) and (orientation: portrait)  {
 .thirdRow {
     display: flex;
    justify-content: space-evenly;
@@ -225,14 +225,15 @@ hr {
 .fourthRow {
     display: flex;
     justify-content: center;
-    margin-left: 10em;
+    margin-left: 15em;
     margin-right: 20em;
 }
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 40rem) and (orientation: portrait) {
 .fourthRow {
     display: flex;
     justify-content: center;
-   
+    margin-left: 15em;
+    margin-right: 20em;
 }
 }
 .fourthRow img {
@@ -335,7 +336,7 @@ ul {
     gap: 10px;
     margin: 5px;
 } */
-@media screen and (max-width: 15rem) {
+@media screen and (max-width: 15rem) and (orientation: portrait)  {
 dialog {
     background: linear-gradient(#6e6868, #ffffff);
 }
