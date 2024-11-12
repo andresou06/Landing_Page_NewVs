@@ -198,6 +198,7 @@ hr {
     display: flex;
    justify-content: space-evenly;
   margin: 2rem;
+  margin-left: 10rem;
 }
 }
 .thirdRow button {
@@ -232,7 +233,7 @@ hr {
 .fourthRow {
     display: flex;
     justify-content: center;
-    margin-left: 15em;
+    margin-left: 25em;
     margin-right: 20em;
 }
 }
