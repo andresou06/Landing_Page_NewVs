@@ -1,25 +1,47 @@
-html {
+* {
+    box-sizing: border-box;
+}
 
+html {
+    
     scroll-behavior: smooth;
     
 }
-
 body {
     margin: 0;
     padding: 0;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
     background-image: linear-gradient(rgba(31, 31, 31, 0.8) , rgb(30, 29, 29,0.8)),
                     url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
-    width: 100%;
-    height: 45rem;
+    min-height: 100vh;
+    
     background-repeat: no-repeat;
     /* background-color: rgb(37, 37, 37); */
     color: rgba(255, 255, 255, 0.9);
     
 }
-
+@media (max-width: 760px), (max-height: 900px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-y:auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: linear-gradient(rgba(31, 31, 31, 0.8) , rgb(30, 29, 29,0.8)),
+                        url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
+        min-height: 100vh;
+        
+        background-repeat: no-repeat;
+        /* background-color: rgb(37, 37, 37); */
+        color: rgba(255, 255, 255, 0.9);
+        
+    }
+}
 a {
     text-decoration: none;
     color: black;
@@ -28,11 +50,20 @@ a {
 .container {
     display: grid;
     /* grid-template-rows: repeat(8, 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr); */
-    width: 90%; /* Adapts to the screen width */
-    max-width: 1200px; /* Optional, to cap width on larger screens */
+    width: 100%; /* Adapts to the screen width */
+    min-height: 100vh; /* Optional, to cap width on larger screens */
    
 }
 
+@media (max-width: 760px), (max-height: 900px) {
+.container {
+    display: grid;
+    /* grid-template-rows: repeat(8, 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr); */
+    width: 100%; /* Adapts to the screen width */
+    min-height: 100vh; /* Optional, to cap width on larger screens */
+   
+}
+}
 
 .firstRow {
     display: flex;
@@ -82,7 +113,7 @@ a {
     border-radius: 5%;
     box-sizing: border-box;
     margin-top: 0.5em;
-    border: solid rgb(135, 131, 131,0.5)  4px;
+    border: solid rgba(34, 33, 33, 0.8)  4px;
 }
 
 #toggle {
@@ -93,7 +124,7 @@ a {
     box-shadow: 5px 5px 50px rgba(245, 243, 243, 0.4);
     border-radius: 5%;
     box-sizing: content-box;
-    border: solid rgb(135, 131, 131,0.5) 4px;
+    border: solid rgba(34, 33, 33, 0.8) 4px;
 }
 
 .extra {
@@ -108,7 +139,7 @@ a {
     border-radius: 2%;
     margin-top: 0.5em;
     box-sizing: content-box;
-    border: solid rgb(135, 131, 131,0.5) 4px;
+    border: solid rgba(34, 33, 33, 0.8) 4px;
   
     
 }
@@ -148,26 +179,21 @@ hr {
 
 .thirdRow {
     display: flex;
-   justify-content: center;
-   margin-left: 20rem;
-    margin-right: 25rem;
+   justify-content: space-evenly;
+  margin: 1rem;
     
     
 }
 .thirdRow button {
     font-size: 1.5em;
     border-radius: 10%;
-    
    
-    margin: 0.5em;
-
 
 }
 .thirdRow button:nth-child(1) {
     background-color: rgb(174, 213, 247,0.7);
     box-shadow: 10px 10px 5px rgba(191, 241, 233, 0.1);
     padding: 0.5em;
-    margin-right: 5em;
     border: solid rgb(255, 255, 255) 3px;
     
 }
@@ -177,6 +203,7 @@ hr {
     box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
     border: solid rgb(255, 255, 255) 3px;
     padding: 0.5em;
+    margin-right: 10rem;
 }
 
 
