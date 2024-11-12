@@ -55,6 +55,15 @@ a {
    
 }
 
+@media screen and (max-width: 760px), (max-height: 900px) {
+.container {
+    display: grid;
+    /* grid-template-rows: repeat(8, 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr); */
+    width: 100%; /* Adapts to the screen width */
+    min-height: 100vh; /* Optional, to cap width on larger screens */
+   
+}
+}
 
 .firstRow {
     display: flex;
