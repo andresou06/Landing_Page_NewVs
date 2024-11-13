@@ -65,7 +65,7 @@ a {
     margin-right: 30em;
     margin-top: 0.5em;
 }
-@media screen and (max-width: 30rem) and (orientation: portrait)  {
+@media screen and (max-width: 40rem) and (orientation: portrait)  {
 .firstRow {
     display: flex;
     justify-content: center;
@@ -77,15 +77,22 @@ a {
     margin-top: 0.5em;
 }
 }
-
+@media screen and (max-width: 15rem) and (orientation: portrait)  {
 .profile {
     border-radius: 100%;
     max-height: 15em;
     max-width: 15em;
     border: solid rgb(128, 106, 128, 0.4) 3px;
     
+    }
 }
 
+.profile {
+    border-radius: 100%;
+    max-height: 15em;
+    max-width: 15em;
+    border: solid rgb(128, 106, 128, 0.4) 3px;
+}
 
 .raleway-uniquifier {
   font-family: "Raleway", sans-serif;
@@ -94,6 +101,7 @@ a {
   font-style: italic;
 
 }
+
 .englobe {
     display: flex;
     justify-content: center;
@@ -106,8 +114,23 @@ a {
     border-radius: 3%;
     margin-left: 3em;
     
-}
+    }
 
+@media screen and (max-width: 15rem) and (orientation: portrait)  {
+.englobe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(230, 227, 227) 2px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(117, 117, 115, 0.7);
+    box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
+    border-radius: 3%;
+    margin-left: 3em;
+    
+    }
+}
 #contact {
    
     font-size: 1.4rem;
@@ -233,8 +256,8 @@ hr {
 .fourthRow {
     display: flex;
     justify-content: center;
-    margin-left: 25em;
-    margin-right: 20em;
+    margin-left: 35rem;
+    
 }
 }
 .fourthRow img {
@@ -249,8 +272,9 @@ hr {
 
 @media screen and (max-width: 40rem) and (orientation: portrait) {
     .mobile {
-        display: flex;
-        flex-direction: column;
+        position: relative;
+        right: 25rem;
+        top: 16rem;
         
     }
 }
