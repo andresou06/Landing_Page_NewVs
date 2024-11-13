@@ -365,13 +365,13 @@ dialog .slider button {
 
 
 
-@media screen and (width: 480px), (max-height: 900px) and (orientation: portrait)  {
+@media screen and (max-width: 100%), (max-height: 900px) and (orientation: portrait)  {
     body {
         margin: 0;
         padding: 0;
         background-size: cover;
        
-        background-attachment: fixed;
+        background-attachment: local, scroll;
         background-image: linear-gradient(rgba(31, 31, 31, 0.7) , rgb(30, 29, 29,0.7)),
                         url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
         max-height: 100vh;
@@ -387,7 +387,7 @@ dialog .slider button {
     .container {
         max-height: 100vh;
         overflow-y:auto;
-        overflow-x:auto;
+        overflow-x: hidden;
         display: grid;
         grid-template-columns: repeat(1 1fr);
        
