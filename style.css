@@ -448,10 +448,10 @@ dialog .slider button {
             @media screen and (max-width: 30rem) and (orientation: portrait)  {
                 .thirdRow {
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-around;
                     position: relative;
                     left: 20%;
-                    right: 30%;
+                    right: 20%;
                     
                  
                 }
