@@ -7,7 +7,14 @@ html {
     scroll-behavior: smooth;
     
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 body {
+    animation: fadeIn 2s ease-in-out;
+
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -363,13 +370,11 @@ dialog .slider button {
         margin: 0;
         padding: 0;
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
         background-image: linear-gradient(rgba(31, 31, 31, 0.8) , rgb(30, 29, 29,0.8)),
                         url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
         max-height: 100vh;
-        
         background-repeat: no-repeat;
         /* background-color: rgb(37, 37, 37); */
         color: rgba(255, 255, 255, 0.9);
@@ -392,9 +397,8 @@ dialog .slider button {
         flex-direction: row;
         box-sizing:border-box;
         border: solid transparent;
-        margin-left: 15em;
-        margin-right: 30em;
         margin-top: 0.5em;
+       
     }
     }
     @media screen and (orientation: portrait)  {
@@ -437,7 +441,7 @@ dialog .slider button {
                 .thirdRow {
                     display: flex;
                    justify-content: space-evenly;
-                  margin: 2rem;
+                    
                  
                 }
                 }
@@ -446,6 +450,7 @@ dialog .slider button {
                 .thirdRow button {
                     font-size: 1.5em;
                     border-radius: 10%;
+                    padding: 10%;
                   }
                 }
                 @media screen and (max-width: 30rem) and (orientation: portrait)  {
@@ -461,13 +466,14 @@ dialog .slider button {
                         .fourthRow {
                             display: flex;
                             justify-content: center;
-                           position: relative;
-                          left: 10rem;
+                          padding: 0;
+                          margin: 0;
+                         
                             
                         }
                         }
                         
-@media screen and (max-width: 40rem) and (orientation: portrait) {
+@media screen and (orientation: portrait) {
     .mobile {
         position: relative;
         right: 30rem;
