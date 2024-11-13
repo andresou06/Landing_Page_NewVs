@@ -389,7 +389,6 @@ dialog .slider button {
         overflow-y:auto;
         overflow-x:auto;
         display: grid;
-        grid-template-columns: repeat(1 1fr);
        
     
     }
@@ -397,20 +396,18 @@ dialog .slider button {
 
  @media screen and (max-width: 40rem) and (orientation: portrait)  {
     .firstRow {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
+       display: grid;
         box-sizing:border-box;
         border: solid transparent;
-        padding: 2%;
-        font-size: 72%;
+        
+       
        
     }
     }
-    @media screen and  (max-width: 10rem) and (orientation: portrait)  {
+    @media screen and  (max-width: 20rem) and (orientation: portrait)  {
     .profile {
         border-radius: 100%;
-        
+    
         border: solid rgb(128, 106, 128, 0.4) 3px;
         
         }
@@ -419,15 +416,14 @@ dialog .slider button {
     @media screen and (orientation: portrait)  {
         .englobe {
             display: flex;
-            justify-content: center;
-            flex-direction: column;
+          justify-content: column;
+            
             border: solid rgb(230, 227, 227) 2px;
-            width: fit-content;
-            height: fit-content;
+           
             background-color: rgba(117, 117, 115, 0.7);
             box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
             border-radius: 3%;
-            width: 50%;
+          
             
             
             }
