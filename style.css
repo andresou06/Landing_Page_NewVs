@@ -386,8 +386,8 @@ dialog .slider button {
 @media screen and (orientation: portrait)  {
     .container {
         max-height: 100vh;
-        overflow-y:auto;
-        overflow-x:hidden;
+        overflow-y:scroll;
+        overflow-x:auto;
         display: grid;
         grid-template-columns: repeat(1 1fr);
        
