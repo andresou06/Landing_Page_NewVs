@@ -365,7 +365,7 @@ dialog .slider button {
 
 
 
-@media screen and (max-width: 50%), (max-height: 900px) and (orientation: portrait)  {
+@media screen and (max-width: 480px), (max-height: 900px) and (orientation: portrait)  {
     body {
         margin: 0;
         padding: 0;
@@ -377,7 +377,7 @@ dialog .slider button {
         background-repeat: no-repeat;
         /* background-color: rgb(37, 37, 37); */
         color: rgba(255, 255, 255, 0.9);
-        
+        max-width: fit-content;
         
     }
 }
