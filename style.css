@@ -80,8 +80,8 @@ a {
 @media screen and (max-width: 15rem) and (orientation: portrait)  {
 .profile {
     border-radius: 100%;
-    max-height: 15em;
-    max-width: 15em;
+    max-height: 5em;
+    max-width: 5em;
     border: solid rgb(128, 106, 128, 0.4) 3px;
     
     }
@@ -224,12 +224,22 @@ hr {
   margin-right:10rem;
 }
 }
+@media screen and (max-width: 30rem) and (orientation: portrait)  {
+
 .thirdRow button {
     font-size: 1.5em;
     border-radius: 10%;
-   
+    margin: 3rem;
 
+    }
 }
+
+.thirdRow button {
+    font-size: 1.5em;
+    border-radius: 10%;
+    
+}
+
 .thirdRow button:nth-child(1) {
     background-color: rgb(174, 213, 247,0.7);
     box-shadow: 10px 10px 5px rgba(191, 241, 233, 0.1);
@@ -256,7 +266,7 @@ hr {
 .fourthRow {
     display: flex;
     justify-content: center;
-    margin-left: 35rem;
+    margin-left: 25rem;
     
 }
 }
@@ -273,7 +283,7 @@ hr {
 @media screen and (max-width: 40rem) and (orientation: portrait) {
     .mobile {
         position: relative;
-        right: 25rem;
+        right: 35rem;
         top: 16rem;
         
     }
