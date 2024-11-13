@@ -80,8 +80,8 @@ a {
 @media screen and (max-width: 10rem) and (orientation: portrait)  {
 .profile {
     border-radius: 100%;
-    max-height: 5em;
-    max-width: 5em;
+    max-height: 2em;
+    max-width: 2em;
     border: solid rgb(128, 106, 128, 0.4) 3px;
     
     }
@@ -127,7 +127,7 @@ a {
     background-color: rgba(117, 117, 115, 0.7);
     box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
     border-radius: 3%;
-    margin-left: 3em;
+    
     
     }
 }
@@ -196,12 +196,10 @@ hr {
     background-color: rgba(104, 102, 102, 0.6);
  }
 
-@media screen and (max-width: 45rem) and (orientation: portrait)  {
+@media screen and (max-width: 40rem) and (orientation: portrait)  {
 .secRow {
    display: flex;
    justify-content: center;
-   margin: 2rem;
-
    border: solid rgba(251, 251, 251) 2px;
    border-radius: 2%;
    background-color: rgba(104, 102, 102, 0.6);
@@ -221,17 +219,15 @@ hr {
     display: flex;
    justify-content: space-evenly;
   margin: 2rem;
-  margin-right:10rem;
+ 
 }
 }
-@media screen and (max-width: 30rem) and (orientation: portrait)  {
 
+@media screen and (max-width: 30rem) and (orientation: portrait)  {
 .thirdRow button {
     font-size: 1.5em;
     border-radius: 10%;
-    
-
-    }
+  }
 }
 
 .thirdRow button {
@@ -262,7 +258,7 @@ hr {
     box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
     border: solid rgb(255, 255, 255) 3px;
     padding: 0.5em;
-    margin-right: 10rem;
+    margin-left: 2rem;
     }
 }
 
@@ -277,7 +273,7 @@ hr {
     display: flex;
     justify-content: center;
    position: relative;
-   left: 20rem;
+  
     
 }
 }
