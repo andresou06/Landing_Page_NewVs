@@ -365,12 +365,12 @@ dialog .slider button {
 
 
 
-@media screen and (max-width: 480px), (max-height: 900px) and (orientation: portrait)  {
+@media screen and (width: 480px), (max-height: 900px) and (orientation: portrait)  {
     body {
         margin: 0;
         padding: 0;
         background-size: cover;
-        background-position: center;
+       
         background-attachment: fixed;
         background-image: linear-gradient(rgba(31, 31, 31, 0.7) , rgb(30, 29, 29,0.7)),
                         url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
@@ -450,7 +450,6 @@ dialog .slider button {
                     display: flex;
                     justify-content: space-around;
                     position: relative;
-                    
                     
                  
                 }
