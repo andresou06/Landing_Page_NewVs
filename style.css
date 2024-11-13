@@ -23,32 +23,7 @@ body {
     color: rgba(255, 255, 255, 0.9);
     
 }
-@media screen and (max-width: 480px), (max-height: 900px) and (orientation: portrait)  {
-    body {
-        margin: 0;
-        padding: 0;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-image: linear-gradient(rgba(31, 31, 31, 0.8) , rgb(30, 29, 29,0.8)),
-                        url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
-        max-height: 100vh;
-        
-        background-repeat: no-repeat;
-        /* background-color: rgb(37, 37, 37); */
-        color: rgba(255, 255, 255, 0.9);
-        
-    }
-}
 
-@media screen and (orientation: portrait)  {
-    .container {
-        max-height: 100vh;
-        overflow-y:auto;
-        overflow-x: auto;
-    }
- }
 
 a {
     text-decoration: none;
@@ -64,27 +39,6 @@ a {
     margin-left: 15em;
     margin-right: 30em;
     margin-top: 0.5em;
-}
-@media screen and (max-width: 20rem) and (orientation: portrait)  {
-.firstRow {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    box-sizing:border-box;
-    border: solid transparent;
-    margin-left: 15em;
-    margin-right: 30em;
-    margin-top: 0.5em;
-}
-}
-@media screen and (max-width: 10rem) and (orientation: portrait)  {
-.profile {
-    border-radius: 100%;
-    max-height: 2em;
-    max-width: 2em;
-    border: solid rgb(128, 106, 128, 0.4) 3px;
-    
-    }
 }
 
 .profile {
@@ -116,21 +70,7 @@ a {
     
     }
 
-@media screen and (max-width: 10rem) and (orientation: portrait)  {
-.englobe {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border: solid rgb(230, 227, 227) 2px;
-    width: fit-content;
-    height: fit-content;
-    background-color: rgba(117, 117, 115, 0.7);
-    box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
-    border-radius: 3%;
-    
-    
-    }
-}
+
 #contact {
    
     font-size: 1.4rem;
@@ -196,15 +136,7 @@ hr {
     background-color: rgba(104, 102, 102, 0.6);
  }
 
-@media screen and (max-width: 40rem) and (orientation: portrait)  {
-.secRow {
-   display: flex;
-   justify-content: center;
-   border: solid rgba(251, 251, 251) 2px;
-   border-radius: 2%;
-   background-color: rgba(104, 102, 102, 0.6);
-}
-}
+
 .bio {
     font: italic;
     white-space: wrap;
@@ -213,21 +145,6 @@ hr {
     display: flex;
    justify-content: space-evenly;
   margin: 1rem;
-}
-@media screen and (max-width: 30rem) and (orientation: portrait)  {
-.thirdRow {
-    display: flex;
-   justify-content: space-evenly;
-  margin: 2rem;
- 
-}
-}
-
-@media screen and (max-width: 30rem) and (orientation: portrait)  {
-.thirdRow button {
-    font-size: 1.5em;
-    border-radius: 10%;
-  }
 }
 
 .thirdRow button {
@@ -252,15 +169,6 @@ hr {
     margin-right: 10rem;
 }
 
-@media screen and (max-width: 30rem) and (orientation: portrait)  {
-.thirdRow button:nth-child(2) {
-    background-color: rgb(174, 213, 247,0.7);
-    box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
-    border: solid rgb(255, 255, 255) 3px;
-    padding: 0.5em;
-    margin-left: 2rem;
-    }
-}
 
 .fourthRow {
     display: flex;
@@ -268,15 +176,7 @@ hr {
     margin-left: 15em;
     margin-right: 20em;
 }
-@media screen and (max-width: 40rem) and (orientation: portrait) {
-.fourthRow {
-    display: flex;
-    justify-content: center;
-   position: relative;
-  
-    
-}
-}
+
 .fourthRow img {
     
     box-sizing: content-box;
@@ -287,14 +187,6 @@ hr {
     object-fit: contain;
 }
 
-@media screen and (max-width: 40rem) and (orientation: portrait) {
-    .mobile {
-        position: relative;
-        right: 35rem;
-        top: 16rem;
-        
-    }
-}
 /* .space_img:nth-child(1) .space_img:nth-child(2) .space_img:nth-child(3)  {
     white-space: nowrap;
 }
@@ -385,11 +277,7 @@ ul {
     gap: 10px;
     margin: 5px;
 } */
-@media screen and (max-width: 15rem) and (orientation: portrait)  {
-dialog {
-    background: linear-gradient(#6e6868, #ffffff);
-}
-}
+
 dialog {
     background: linear-gradient(#6e6868, #ffffff);
 }
@@ -467,3 +355,128 @@ dialog .slider button {
    
     border: solid transparent;
 }
+
+
+
+@media screen and (max-width: 480px), (max-height: 900px) and (orientation: portrait)  {
+    body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: linear-gradient(rgba(31, 31, 31, 0.8) , rgb(30, 29, 29,0.8)),
+                        url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
+        max-height: 100vh;
+        
+        background-repeat: no-repeat;
+        /* background-color: rgb(37, 37, 37); */
+        color: rgba(255, 255, 255, 0.9);
+        
+    }
+}
+
+@media screen and (orientation: portrait)  {
+    .container {
+        max-height: 100vh;
+        overflow-y:auto;
+        overflow-x: auto;
+    }
+ }
+
+ @media screen and (max-width: 40rem) and (orientation: portrait)  {
+    .firstRow {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        box-sizing:border-box;
+        border: solid transparent;
+        margin-left: 15em;
+        margin-right: 30em;
+        margin-top: 0.5em;
+    }
+    }
+    @media screen and (orientation: portrait)  {
+    .profile {
+        border-radius: 100%;
+        max-height: 2em;
+        max-width: 2em;
+        border: solid rgb(128, 106, 128, 0.4) 3px;
+        
+        }
+    }
+    
+    @media screen  and (orientation: portrait)  {
+        .englobe {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            border: solid rgb(230, 227, 227) 2px;
+            width: fit-content;
+            height: fit-content;
+            background-color: rgba(117, 117, 115, 0.7);
+            box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
+            border-radius: 3%;
+            
+            
+            }
+        }
+
+         @media screen and (max-width: 40rem) and (orientation: portrait)  {
+            .secRow {
+               display: flex;
+               justify-content: center;
+               border: solid rgba(251, 251, 251) 2px;
+               border-radius: 2%;
+               background-color: rgba(104, 102, 102, 0.6);
+            }
+            }
+
+            @media screen and (max-width: 30rem) and (orientation: portrait)  {
+                .thirdRow {
+                    display: flex;
+                   justify-content: space-evenly;
+                  margin: 2rem;
+                 
+                }
+                }
+                
+                @media screen and (max-width: 30rem) and (orientation: portrait)  {
+                .thirdRow button {
+                    font-size: 1.5em;
+                    border-radius: 10%;
+                  }
+                }
+                @media screen and (max-width: 30rem) and (orientation: portrait)  {
+                    .thirdRow button:nth-child(2) {
+                        background-color: rgb(174, 213, 247,0.7);
+                        box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
+                        border: solid rgb(255, 255, 255) 3px;
+                        padding: 0.5em;
+                        margin-left: 2rem;
+                        }
+                    }
+                    @media screen and (max-width: 40rem) and (orientation: portrait) {
+                        .fourthRow {
+                            display: flex;
+                            justify-content: center;
+                           position: relative;
+                          left: 10rem;
+                            
+                        }
+                        }
+                        
+@media screen and (max-width: 40rem) and (orientation: portrait) {
+    .mobile {
+        position: relative;
+        right: 30rem;
+        top: 16rem;
+        
+    }
+}
+@media screen and (max-width: 15rem) and (orientation: portrait)  {
+    dialog {
+        background: linear-gradient(#6e6868, #ffffff);
+    }
+    }
