@@ -65,7 +65,7 @@ a {
     margin-right: 30em;
     margin-top: 0.5em;
 }
-@media screen and (max-width: 30rem) and (orientation: portrait)  {
+@media screen and (max-width: 20rem) and (orientation: portrait)  {
 .firstRow {
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@ a {
     margin-top: 0.5em;
 }
 }
-@media screen and (orientation: portrait)  {
+@media screen and (max-width: 10rem) and (orientation: portrait)  {
 .profile {
     border-radius: 100%;
     max-height: 5em;
@@ -116,7 +116,7 @@ a {
     
     }
 
-@media screen and (orientation: portrait)  {
+@media screen and (max-width: 10rem) and (orientation: portrait)  {
 .englobe {
     display: flex;
     justify-content: center;
@@ -196,7 +196,7 @@ hr {
     background-color: rgba(104, 102, 102, 0.6);
  }
 
-@media screen and(orientation: portrait)  {
+@media screen and (max-width: 45rem) and (orientation: portrait)  {
 .secRow {
    display: flex;
    justify-content: center;
@@ -216,7 +216,7 @@ hr {
    justify-content: space-evenly;
   margin: 1rem;
 }
-@media screen and (orientation: portrait)  {
+@media screen and (max-width: 30rem) and (orientation: portrait)  {
 .thirdRow {
     display: flex;
    justify-content: space-evenly;
@@ -224,12 +224,12 @@ hr {
   margin-right:10rem;
 }
 }
-@media screen and (orientation: portrait)  {
+@media screen and (max-width: 30rem) and (orientation: portrait)  {
 
 .thirdRow button {
     font-size: 1.5em;
     border-radius: 10%;
-    margin: 3rem;
+    
 
     }
 }
@@ -256,26 +256,28 @@ hr {
     margin-right: 10rem;
 }
 
-@media screen and (orientation: portrait)  {
+@media screen and (max-width: 30rem) and (orientation: portrait)  {
 .thirdRow button:nth-child(2) {
     background-color: rgb(174, 213, 247,0.7);
     box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
     border: solid rgb(255, 255, 255) 3px;
     padding: 0.5em;
-   margin-left: 2rem;
+    margin-right: 10rem;
     }
 }
+
 .fourthRow {
     display: flex;
     justify-content: center;
     margin-left: 15em;
     margin-right: 20em;
 }
-@media screen  and (orientation: portrait) {
+@media screen and (max-width: 40rem) and (orientation: portrait) {
 .fourthRow {
     display: flex;
     justify-content: center;
-   
+   position: relative;
+   left: 20rem;
     
 }
 }
@@ -289,10 +291,10 @@ hr {
     object-fit: contain;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 40rem) and (orientation: portrait) {
     .mobile {
         position: relative;
-        right: 100%;
+        right: 35rem;
         top: 16rem;
         
     }
