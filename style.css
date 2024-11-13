@@ -387,7 +387,7 @@ dialog .slider button {
     .container {
 
         overflow-y:auto;
-        overflow-x: auto;
+        overflow-x: hidden;
         display: grid;
         
        
@@ -439,7 +439,7 @@ dialog .slider button {
                flex-direction: row;
                border: solid rgba(251, 251, 251) 2px;
                border-radius: 2%;
-               font-size: 110%;
+               font-size: 100%;
                background-color: rgba(104, 102, 102, 0.6);
             }
             }
