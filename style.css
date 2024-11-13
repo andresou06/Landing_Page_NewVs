@@ -23,7 +23,7 @@ body {
     color: rgba(255, 255, 255, 0.9);
     
 }
-@media screen and (max-width: 800px), (max-height: 900px) and (orientation: portrait)  {
+@media screen and (max-width: 768px), (max-height: 900px) and (orientation: portrait)  {
     body {
         margin: 0;
         padding: 0;
@@ -65,7 +65,7 @@ a {
     margin-right: 30em;
     margin-top: 0.5em;
 }
-@media screen and (max-width: 40rem) and (orientation: portrait)  {
+@media screen and (max-width: 30rem) and (orientation: portrait)  {
 .firstRow {
     display: flex;
     justify-content: center;
@@ -247,7 +247,13 @@ hr {
     object-fit: contain;
 }
 
-
+@media screen and (max-width: 40rem) and (orientation: portrait) {
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
 /* .space_img:nth-child(1) .space_img:nth-child(2) .space_img:nth-child(3)  {
     white-space: nowrap;
 }
@@ -325,6 +331,7 @@ ul {
     background-color: rgba(90, 90, 90, 0.3);
     
 }
+
 
 
 /* Getting dialogs more stylish
