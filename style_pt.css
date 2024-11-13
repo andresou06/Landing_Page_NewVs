@@ -453,7 +453,7 @@ dialog .slider button {
                 }
                 }
                 
-                @media screen and (max-width: 30rem) and (orientation: portrait)  {
+                @media screen and (orientation: portrait)  {
                 .thirdRow button {
                     font-size: 1.5em;
                     border-radius: 10%;
@@ -467,8 +467,8 @@ dialog .slider button {
                         box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
                         border: solid rgb(255, 255, 255) 3px;
                         padding: 0.5em;
-                         position: relative;
-                         right: 30%;
+                    
+                        
                         }
                     }
                     @media screen and (max-width: 40rem) and (orientation: portrait) {
