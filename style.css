@@ -370,7 +370,7 @@ dialog .slider button {
         margin: 0;
         padding: 0;
         background-size: cover;
-        background-position: center;
+        background-position: left;
         background-attachment: fixed;
         background-image: linear-gradient(rgba(31, 31, 31, 0.7) , rgb(30, 29, 29,0.7)),
                         url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
@@ -461,6 +461,7 @@ dialog .slider button {
                 .thirdRow button {
                     font-size: 1.5em;
                     border-radius: 10%;
+                   
                     
                   }
                 }
@@ -470,7 +471,7 @@ dialog .slider button {
                         box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
                         border: solid rgb(255, 255, 255) 3px;
                         padding: 0.5em;
-                        margin-left: 2rem;
+                        margin-right: 3rem;
                         }
                     }
                     @media screen and (max-width: 40rem) and (orientation: portrait) {
