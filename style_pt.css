@@ -448,11 +448,8 @@ dialog .slider button {
             @media screen and (max-width: 30rem) and (orientation: portrait)  {
                 .thirdRow {
                     display: flex;
-                    justify-content: space-around;
-                    position: relative;
+                    justify-content: space-evenly;
                     
-                    
-                 
                 }
                 }
                 
@@ -460,7 +457,7 @@ dialog .slider button {
                 .thirdRow button {
                     font-size: 1.5em;
                     border-radius: 10%;
-                   
+                    padding: 5%;
                     
                   }
                 }
@@ -470,7 +467,7 @@ dialog .slider button {
                         box-shadow: 10px 10px 5px rgba(212, 246, 212, 0.1);
                         border: solid rgb(255, 255, 255) 3px;
                         padding: 0.5em;
-                        margin-right: 3rem;
+                        
                         }
                     }
                     @media screen and (max-width: 40rem) and (orientation: portrait) {
