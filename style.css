@@ -365,19 +365,20 @@ dialog .slider button {
 
 
 
-@media screen and (max-width: 480px), (max-height: 1200px) and (orientation: portrait)  {
+@media screen and (max-width: 480px), (max-height: 900px) and (orientation: portrait)  {
     body {
         margin: 0;
         padding: 0;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        background-image: linear-gradient(rgba(31, 31, 31, 0.8) , rgb(30, 29, 29,0.8)),
+        background-image: linear-gradient(rgba(31, 31, 31, 0.7) , rgb(30, 29, 29,0.7)),
                         url(./Image/everaldo-coelho-qYdUUZVWiVY-unsplash.jpg);
         max-height: 100vh;
         background-repeat: no-repeat;
         /* background-color: rgb(37, 37, 37); */
         color: rgba(255, 255, 255, 0.9);
+        
         
     }
 }
@@ -386,9 +387,10 @@ dialog .slider button {
     .container {
         max-height: 100vh;
         overflow-y:auto;
-        overflow-x: auto;
+        overflow-x:hidden;
         display: grid;
         grid-template-columns: repeat(1 1fr);
+       
     
     }
  }
@@ -401,14 +403,14 @@ dialog .slider button {
         box-sizing:border-box;
         border: solid transparent;
         padding: 2%;
-        font-size: 70%;
+        font-size: 72%;
        
     }
     }
     @media screen and  (max-width: 10rem) and (orientation: portrait)  {
     .profile {
         border-radius: 100%;
-     
+        
         border: solid rgb(128, 106, 128, 0.4) 3px;
         
         }
@@ -431,13 +433,14 @@ dialog .slider button {
             }
         }
 
-         @media screen and (max-width: 40rem) and (orientation: portrait)  {
+         @media screen and (max-width: 50rem) and (orientation: portrait)  {
             .secRow {
                display: flex;
                justify-content: center;
                flex-direction: row;
                border: solid rgba(251, 251, 251) 2px;
                border-radius: 2%;
+               font-size: 110%;
                background-color: rgba(104, 102, 102, 0.6);
             }
             }
@@ -445,7 +448,10 @@ dialog .slider button {
             @media screen and (max-width: 30rem) and (orientation: portrait)  {
                 .thirdRow {
                     display: flex;
-                   justify-content: space-evenly;
+                    justify-content: center;
+                    position: relative;
+                    left: 20%;
+                    right: 30%;
                     
                  
                 }
@@ -455,7 +461,7 @@ dialog .slider button {
                 .thirdRow button {
                     font-size: 1.5em;
                     border-radius: 10%;
-                    padding: 10%;
+                    
                   }
                 }
                 @media screen and (max-width: 30rem) and (orientation: portrait)  {
@@ -475,7 +481,7 @@ dialog .slider button {
                           margin: 0;
                          
                           position: relative;
-                          left: 17%;
+                          left: 18%;
                             
                         }
                         }
