@@ -114,3 +114,97 @@ body {
 [aria-describedby]:focus ~ [role="tooltip"]  {
   visibility: visible;
 } */
+
+@media screen and (max-width: 480px), (max-height: 900px) and (orientation: portrait)  {
+    body {
+        
+        background-repeat: no-repeat;
+        background-image:linear-gradient(rgba(227, 193, 237, 0.7), rgba(29, 27, 29, 0.9));
+        max-width: 100vw;
+        max-height: 100vh;
+        display: grid;
+        justify-items: start;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (orientation: portrait) {
+
+.block {
+    visibility: hidden;
+
+}
+.mobile {
+    visibility: visible;
+    position: relative;
+    right: 26rem;
+    bottom: 10rem;
+    font-size: 2rem;
+   
+}
+}
+
+ 
+
+    @media screen and (orientation:portrait) {
+        #boom {
+            display: none;
+        }
+    }
+
+    @media screen and (orientation:portrait) {
+        
+.block button {
+    border-radius: 10%;
+    box-sizing: border-box;
+    border: solid rgb(192, 191, 191) 2px;
+    height: 4rem;
+    box-shadow: 1rem 1rem 5rem whitesmoke;
+    background-color: rgba(119, 164, 190, 0.9);
+    font-size: 1.5rem;
+    color: aliceblue;
+    font: normal
+}
+
+
+.block .right {
+    text-decoration: none;
+    position: relative;
+   
+}
+
+.block #uname{
+    
+    width: 80%;
+    height: 2rem;
+    border: solid;
+    border-radius: 5%;
+    box-sizing: content-box;
+   border: solid black 2px;
+
+
+}
+
+
+
+.block #message{
+   
+    height: 20rem;
+    border-radius: 5%;
+   border: solid black 2px;
+
+
+}
+
+.block #email{
+    width: 80%;
+    height: 2rem;
+    border: solid transparent;
+    border-radius: 5%;
+    box-sizing: content-box;
+   border: solid black 2px;
+
+    
+        }
+ }
