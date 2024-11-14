@@ -65,23 +65,30 @@ closeButton3.addEventListener('click', () => {
 
 // ###################################################
 // dialog 3 Quick Solutions
-;
-const rightbtn = document.getElementsByClassName('.right_slide');
+const rightbtn = document.getElementsByClassName('right_slide');
+const leftbtn = document.getElementsByClassName('left-slide')
+const pic1 = document.querySelector('#pic1');
+const pic2 = document.querySelector('#pic2');
+const pic3 = document.querySelector('#pic3');
 
-const pic1 = document.getElementById('pic1');
-const pic2 = document.getElementById('pic2');
-const pic3 = document.getElementById('pic3');
+const fullPage = document.querySelector('#fullpage');
 
-const arrayImage = [pic1, pic2, pic3];
+function getPics() {}
+pic2.addEventListener('click', function() {
+        fullPage.style.backgroundImage = "url('Image/onlinefoodweb.png')";
+        fullPage.style.display = 'block';
+})
 
-document.getElementsByClassName('.left-slide').addEventListener('click'), () => {
-        pic2.style.visibility = 'visible';
-        pic1.style.visibility = 'hidden';
-}
+// array_pics = [pic1, pic2, pic3];
+// .addEventListener('click'), () => {
+//         pic2.style.visibility = 'visible';
+//         pic1.style.visibility = 'hidden';
+// }
 
 // leftbtn.addEventListener('click', () => {
 //         hidepic21();
 // })
+
 
 
 // HTMLElement.title

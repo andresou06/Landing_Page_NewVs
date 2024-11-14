@@ -107,20 +107,21 @@
 
         <button  class="left_slide thumbnails">⬅️</button>
 
-        <label for="img">Professional Website Refresh Templates
-        <img id="pic1" src="./Image/Capture d'écran 2024-11-11 190904.png">
+        <label class="label_1" hidden for="img">Professional Website Refresh Templates
+        <img  id="pic1" hidden src="./Image/refresherweb.png">
     </label>
-    <label hidden for="img">Online Menu Website
-        <img id="pic2" hidden src="./Image/Capture d'écran 2024-11-11 192608.png">
+    <label  for="img">Online Menu Website
+        <img onload="getPics()" id="pic2" src="./Image/onlinefoodweb.png">
     </label>
     <label hidden for="img">Social Media Template
-        <img id="pic3" hidden src="./Image/Capture d'écran 2024-11-11 195231.png">
+        <img  id="pic3" hidden src="./Image/mediatemplate.png">
     </label>
 
  <button class="right_slide thumbnails">➡️</button>
         
     </div>
-    
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+
 </dialog>
 
 

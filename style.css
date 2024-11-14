@@ -72,7 +72,6 @@ a {
     width: fit-content;
     height: fit-content;
     background-color: rgba(117, 117, 115, 0.7);
-    box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
     border-radius: 3%;
     margin-left: 3em;
     
@@ -176,6 +175,23 @@ hr {
     padding: 0.5em;
     margin-right: 10rem;
 }
+
+
+#fullpage {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+}
+
+
 
 
 .fourthRow {
@@ -455,7 +471,8 @@ dialog #close1 {
             border: solid rgb(230, 227, 227) 2px;
            
             background-color: rgba(117, 117, 115, 0.7);
-            box-shadow: 5px 5px 50px rgba(40, 29, 29, 0.4);;
+            box-shadow: 10px 10px 10px rgb(106, 106, 106);;
+
             border-radius: 3%;
             }
         }
@@ -518,12 +535,11 @@ dialog #close1 {
         position: relative;
       right: 50%;
         top: 110%;
-        
     }
 }
 @media screen and (orientation: portrait)  {
     dialog {
-        background: linear-gradient(rgba(209, 237, 235, 0.8), rgba(44, 42, 42, 0.7));
+        background: linear-gradient(rgba(209, 237, 235, 0.9), rgba(44, 42, 42, 0.9));
         height: 30rem;
         width: 30rem;
         position: relative;
@@ -534,18 +550,22 @@ dialog #close1 {
         height: 100%;
         font-size: 1rem;
         position: relative;
-        bottom: 4rem;
+        bottom: 1rem;
        
     }
+   
     dialog h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         box-sizing:content-box;
-        max-width: fit-content;
+        max-width: 60%;
         background-color: rgb(255, 215, 0, 0.6);
         border: solid black 2px;
     }
     dialog h3 {
         font-size: 1.1rem;
+        box-sizing: content-box;
+        background-color: #ffffff;
+        max-width: 60%;
     }
     
     .auto {
@@ -589,7 +609,7 @@ dialog #close1 {
         background-color: rgb(22, 21, 21,0.5);
         color: #ffffff;
         position: relative;
-        bottom: 13%;
+        bottom: 20%;
 
         
         
@@ -600,7 +620,7 @@ dialog #close1 {
         width: 25rem;
         height: 25rem;
         border: solid white 2px;
-    
+        
     }
     
     dialog .slider button {
@@ -608,10 +628,17 @@ dialog #close1 {
     }
     dialog .pop3 {
         position: relative;
-        bottom: 4rem;
-        font-size: 1rem;
+        bottom: 5rem;
+        font-size: 1.2rem;
         width: 80%;
+        color: #0e0602;
+        max-width: 60%;
+        box-sizing: content-box;
+        background-color: aliceblue;
+        border: solid black 2px;
+    
     }
+  
     dialog .pop3h {
         display: none;
     }
@@ -619,6 +646,7 @@ dialog #close1 {
         position: relative;
         bottom: 5rem;
         font-size: 2rem;
+        max-width: 30%;
 
     }
     dialog #pic1, #pic2, #pic3 {
@@ -626,20 +654,20 @@ dialog #close1 {
 
     }
     dialog label {
-        font-size: 1rem;
+        font-size: 1.5rem;
         
     }
 
     dialog #close {
             border: solid black 3px;
-            width: 5rem;
+            width: 4rem;
             height: 4rem;
-            font-size: 1.3rem;
+            font-size: 1rem;
             object-fit:100%;
             max-width: 100%;
 
            position: relative;
-           left: 72%;
+           left: 80%;
     }
     dialog #close1 {
         border: solid black 3px;
@@ -651,7 +679,7 @@ dialog #close1 {
             max-width: 100%;
 
            position: relative;
-           left: 60%;
+           left: 70%;
     }
     
     }
