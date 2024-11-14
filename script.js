@@ -37,9 +37,9 @@ const dialog2 = document.getElementById('my-popover2');
 const dialog3 = document.getElementById('my-popover3');
 
 
-const closeButton2 = document.getElementById('two')
+const closeButton = document.getElementById('close')
 
-const closeButton3 = document.getElementById('three')
+const closeButton3 = document.getElementById('close1')
 
 
 // ###########################################################
@@ -50,7 +50,7 @@ button_calendar.addEventListener('click', () => {
     dialog2.showModal();
 });
 
-closeButton2.addEventListener('click', () => {
+closeButton.addEventListener('click', () => {
         dialog2.close();
 });
 // ######
