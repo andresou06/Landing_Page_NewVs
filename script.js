@@ -65,8 +65,8 @@ closeButton3.addEventListener('click', () => {
 
 // ###################################################
 // dialog 3 Quick Solutions
-const leftbtn = document.querySelector('.left-slide');
-const rightbtn = document.querySelector('.right_slide');
+;
+const rightbtn = document.getElementsByClassName('.right_slide');
 
 const pic1 = document.getElementById('pic1');
 const pic2 = document.getElementById('pic2');
@@ -74,18 +74,9 @@ const pic3 = document.getElementById('pic3');
 
 const arrayImage = [pic1, pic2, pic3];
 
-function showHideImage() {
-        
-      if(pic2.style.visibility === 'hidden' && pic3.style.visibility === 'hidden') {
-        pic1.style.visibility = 'visible';
-
-      } else if ( pic2.style.visibility === 'hidden' && pic1.style.visibility === 'hidden') {
-        pic3.style.visibility = 'visible';
-      } else if (pic1.style.visibility === 'hidden' && pic3.style.visibility === 'hidden') {
+document.getElementsByClassName('.left-slide').addEventListener('click'), () => {
         pic2.style.visibility = 'visible';
-      } else {
-        return console.log('not working');
-      }
+        pic1.style.visibility = 'hidden';
 }
 
 // leftbtn.addEventListener('click', () => {
