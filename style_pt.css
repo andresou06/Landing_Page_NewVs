@@ -294,7 +294,9 @@ ul {
 }
 
 
-
+dialog {
+    animation: fadeIn 1s ease-in-out;
+}
 
 dialog button {
     width: 4em;
@@ -341,7 +343,7 @@ dialog #same {
     background-color: rgba(0, 0, 0, 0.5);
 } 
 #my-popover3 {
-    background: linear-gradient(rgba(235, 251, 251, 0.9), rgba(44, 42, 42, 0.7));
+    background: linear-gradient(rgba(134, 132, 132, 0.9), rgba(44, 42, 42, 0.7));
    overflow-x: scroll;
    overflow-y: hidden;
     max-width: 700px;
@@ -377,6 +379,7 @@ dialog .slider {
     position: relative;
     bottom: 5rem;
     background-color: rgb(215, 215, 215,0.5);
+    border: solid black 3px;
 }
 dialog label {
     font-size: 1.5rem;
@@ -471,7 +474,7 @@ dialog #close1 {
     .mediah2 {
         position: relative;
         top: 60%;
-        right: 28%;
+        right: 30%;
 
         font-size: 170%;
     }
@@ -481,7 +484,7 @@ dialog #close1 {
     @media screen and (orientation: portrait)  {
     .profile {
         border-radius: 10%;
-        font-size: 110%;
+        font-size: 150%;
         border: solid rgb(128, 106, 128, 0.4) 3px;
         
         }
@@ -491,7 +494,7 @@ dialog #close1 {
         .englobe {
             display: flex;
           position: relative;
-          right: 30%;
+          right: 20%;
             flex-direction: column;
             border: solid rgb(230, 227, 227) 2px;
            
@@ -633,13 +636,16 @@ dialog #close1 {
         z-index: 1000;
     }
       
-    
+    dialog .mobile_service {
+        position: relative;
+        left: 10%;
+    }
     dialog .slider {
       
       
        overflow-x: auto;
-     width: 100%;
-     height: 75%;
+     width: 90%;
+     height: 100%;
         border: solid black 2px;
         background-color: rgb(22, 21, 21,0.5);
         color: #ffffff;
