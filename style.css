@@ -379,7 +379,7 @@ dialog .slider {
     position: relative;
     bottom: 5rem;
     background-color: rgb(215, 215, 215,0.5);
-    border: solid black 3px;
+    border: solid black 5px;
 }
 dialog label {
     font-size: 1.5rem;
@@ -646,7 +646,7 @@ dialog #close1 {
        overflow-x: auto;
      width: 90%;
      height: 100%;
-        border: solid black 2px;
+        border: solid black 5px;
         background-color: rgb(22, 21, 21,0.5);
         color: #ffffff;
         
@@ -660,7 +660,7 @@ dialog #close1 {
     }
     dialog .slider  img {
        
-        width: 25rem;
+        width: 22rem;
         height: 25rem;
         border: solid white 2px;
         

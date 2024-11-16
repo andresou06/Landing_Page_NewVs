@@ -520,7 +520,8 @@ dialog #close1 {
                     display: flex;
                    justify-content: flex-start;
                     position: relative;
-                    bottom: 2rem;
+                    bottom: 3rem;
+                    right: 2rem;
                   
                 }
                 }
@@ -552,7 +553,7 @@ dialog #close1 {
                          right: 15%;
                         font-size: 180%;
                        
-                        bottom: 3rem;
+                        bottom: 4rem;
                         
         
                           
@@ -564,7 +565,7 @@ dialog #close1 {
     .mobile {
         position: relative;
       right: 50%;
-        top: 80%;
+        top: 70%;
     }
 }
 @media screen and (orientation: portrait)  {
@@ -660,7 +661,7 @@ dialog #close1 {
     }
     dialog .slider  img {
        
-        width: 25rem;
+        width: 22rem;
         height: 25rem;
         border: solid white 2px;
         
