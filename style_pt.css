@@ -561,7 +561,7 @@ dialog #close1 {
     .mobile {
         position: relative;
       right: 50%;
-        top: 110%;
+        top: 80%;
     }
 }
 @media screen and (orientation: portrait)  {
