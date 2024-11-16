@@ -1,3 +1,14 @@
+function alerting() {
+      alert('This section is currently under construction. We apologize for the inconvenience and appreciate your patience! From the main Page, you can click on one of the Links, below "Download resume", to contact me');
+      // setTimeout(goBack, "3000");
+};
+
+alerting()
+
+function goBack() {
+      open("./index.html");
+}
+
 const image = document.querySelector('img');
 
 const uname = document.getElementById('uname');
@@ -19,19 +30,19 @@ emptyInput3 = message.textContent = "";
 
 // CreateElement
 // insertAdjacentElement('afterend') ?
-btnsend.addEventListener('click', () => {
+// btnsend.addEventListener('click', () => {
     
-          if (emptyInput1 === "" || emptyInput2 === "" || emptyInput3 === "") {
-                alert('No message can be sent as long you have not filled all the fields')
+//           if (emptyInput1 === "" || emptyInput2 === "" || emptyInput3 === "") {
+//                 alert('No message can be sent as long you have not filled all the fields')
                
-          } else {
-               alert('All the fields are filled you can send your message.')
+//           } else {
+//                alert('All the fields are filled you can send your message.')
        
-     };
-     const feedback = document.createElement('p');
-     feedback.textContent = "Message sent!"
-     btnsend.insertAdjacentElement("afterend", feedback);
-});
+//      };
+//      const feedback = document.createElement('p');
+//      feedback.textContent = "Message sent!"
+//      btnsend.insertAdjacentElement("afterend", feedback);
+// });
 
 
 

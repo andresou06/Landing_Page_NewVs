@@ -8,6 +8,7 @@
 
 // Language Toggle Button
 
+
 const toggleLanguage = document.getElementById('toggle');
 
 toggleLanguage.addEventListener('click', () => {
@@ -63,42 +64,45 @@ closeButton3.addEventListener('click', () => {
         dialog3.close();
 });
 
-// ###################################################
-// dialog 3 Quick Solutions
-const rightbtn = document.getElementsByClassName('right_slide');
-const leftbtn = document.getElementsByClassName('left-slide')
-const pic1 = document.querySelector('#pic1');
-const pic2 = document.querySelector('#pic2');
-const pic3 = document.querySelector('#pic3');
+
+// ##################################################
 
 const fullPage = document.querySelector('#fullpage');
 
 function getPics() {}
+
+pic1.addEventListener('click', function() {
+        fullPage.style.backgroundImage = "url('Image/refresherweb.png')";
+        fullPage.style.display = 'block';
+})
 pic2.addEventListener('click', function() {
         fullPage.style.backgroundImage = "url('Image/onlinefoodweb.png')";
         fullPage.style.display = 'block';
 })
 
-// array_pics = [pic1, pic2, pic3];
-// .addEventListener('click'), () => {
-//         pic2.style.visibility = 'visible';
-//         pic1.style.visibility = 'hidden';
-// }
 
-// leftbtn.addEventListener('click', () => {
-//         hidepic21();
-// })
+pic3.addEventListener('click', function() {
+        fullPage.style.backgroundImage = "url('Image/mediatemplate.png')";
+        fullPage.style.display = 'block';
+})
+
+// ##################################################################################
+
+// Clicking links
+
+const mail = document.querySelector('.mail');
+
+mail.addEventListener('click', () => {
+        open("https://mail.google.com/mail/u/0/?fs=1&to=andreas.sousa0803@gmail.com&su=SUBJECT&body=BODY&tf=cm");
+});
+
+const git = document.querySelector('.git');
+git.addEventListener('click', () => {
+        open("https://github.com/andresou06")
+});
 
 
-
-// HTMLElement.title
-
-// The tooltip is displayed and disappears via keyboard focus and removal of focus and by the mouse events - mousing over and mousing out.
-
-// The tooltip never receives focus. Focus stays on the owning element.
-
-// The tooltip can be hidden with the Escape key
-
-// The tooltip stays open when hovered
-
-// The tooltip is only hidden via JavaScript and CSS selectors. If JavaScript is not available the tooltip is shown.
+const linkdin = document.querySelector('.linkedin');
+linkdin.addEventListener('click', () => {
+        open("https://www.linkedin.com/in/andreas-sousa-95b77419b/");
+});
