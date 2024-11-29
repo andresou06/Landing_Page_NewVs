@@ -481,7 +481,7 @@ dialog #close1 {
         top: 55%;
         right: 30%;
 
-       font-size: 100%;
+       font-size: 120%;
     }
 }
 
@@ -528,7 +528,7 @@ dialog #close1 {
                     position: relative;
                    bottom: 9rem;
                    right: 2%;
-                    width: 10%;
+                    
                   
                 }
                 }
@@ -537,7 +537,7 @@ dialog #close1 {
                 .thirdRow button {
                     margin: 2rem;
                     border-radius: 10%;
-                   font-size: 1.1rem;
+                   font-size: 1.4rem;
                     
                   }
                 }
@@ -554,7 +554,7 @@ dialog #close1 {
                     @media screen and (max-width: 480px), (orientation: portrait) {
                         .fourthRow {
                             display: flex;
-                           width: 50%;
+                           width: 70%;
                             justify-content:flex-start;
                          position: relative;
                          right: 15%;
@@ -571,8 +571,8 @@ dialog #close1 {
 @media screen and (max-width: 480px), (orientation: portrait) {
     .mobile {
         position: relative;
-      right: 65%;
-        top: 110%;
+      right: 52%;
+        top: 90%;
     }
 }
 @media screen and (max-width: 480px), (orientation: portrait)  {
