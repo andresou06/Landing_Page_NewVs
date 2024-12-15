@@ -218,10 +218,13 @@ body {
             background-color: rgb(240, 248, 255,0.8);
          
           }
+
+          
           .cercles {
             padding: 0;
             margin: 0;
           }
+
           #cercleOne {
             border-radius: 100%;
           }
@@ -350,50 +353,6 @@ video {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* #####################################*/
 
 @media screen and (min-width: 768px), (max-width: 1024) {
@@ -447,11 +406,173 @@ display: none;
 
 }
 
-.sections {
+.sections_headers {
 font-style: 1.5rem;
 display: block;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+ 
+}
+/* #home {
+  width: 100vw;
+  height: 100vh;
+  
+} */
+
+
+.scrolling_box {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  scroll-behavior: smooth;
+
+}
+
+section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+}
+.arrow_down {
+  animation: changeColor 4s ease-in-out;
+  border: solid black 1px;
+
+  border-radius: 5%;
+  width: 20px;
+  /* position: relative;
+  bottom: 4rem; */
+}
+.arrow_down2 {
+   width: 20px;
+   border: solid black 1px;
+
+  border-radius: 5%;
+/*         
+   position: relative;
+   bottom: 4rem; */
+   
+   
+ }
+ .arrow_down3 {
+   width: 20px;
+   border: solid black 1px;
+
+   border-radius: 5%;
+
+   /* position: relative;
+  bottom: 4rem; */
+  
+   
+ }
+ .arrow_down4 {
+  /* border: solid rgb(255, 255, 255) 4px; */
+   width: 20px;
+   border: solid black 1px;
+
+   border-radius: 5%;
+
+   /* position: relative;
+  bottom: 4rem; */
+  
+   
+ }
+ .arrow_down5 {
+  /* border: solid rgb(255, 255, 255) 4px; */
+   width: 20px;
+   border: solid black 1px;
+
+  border-radius: 5%;
+
+   /* position: relative;
+  bottom: 4rem; */
+  
+   
+ }
+ .display_work {
+  /* animation: slide 2s ease-in-out; */
+  
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+ border: solid black 3px;
+ border-radius: 2%;
+ scroll-behavior: smooth;
+
+ }
+.display_work img {
+  border-radius: 2%;
+  margin: 1rem;
+  width: 40vw;
+  height: 60vh;
+  border: solid rgb(255, 255, 255, 0.7) 3px;
+}
+.display_work img:hover {
+  scale: 1.05;
+}
+#title_sec {
+  background-color: rgb(240, 248, 255,0.8);
+
+}
+.cercles {
+  padding: 0;
+  margin: 0;
+}
+#cercleOne {
+  border-radius: 100%;
+}
+
+#cercleTwo {
+  border-radius: 100%;
+}
+.contact_form {
+background-color: rgba(202, 207, 211, 0.9);
+margin: 0;
+border-radius: 2%;
+border: solid white 4px;
+}
+.contact_form li {
+background-color: rgb(39, 38, 38,0.7);
+color: white;
+border-radius: 2%;
+}
+
+#faq {
+
+font-size: 1rem;
+font: bolder;
+}
+.bankIdeas {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: rgba(210, 193, 131, 0.6);
+
+}
+.bankIdeas img {
+background-color: aliceblue;
+width: 40vw;
+margin: 1rem;
+height: 40vh;
+border-radius: 2%;
+border: solid white 2px;
+}
+
+.bankIdeas  a {
+background-color: rgb(126, 126, 126, 0.5);
+width: fit-content;
+height: fit-content;
+border-radius: 2%;
+border: solid white;
+}
 
 }
 
@@ -507,9 +628,11 @@ body {
         display: none;
 }
 
-.sections {
+.sections_headers {
         font-style: 1.5rem;
 display: block;
+background-color: rgba(99, 140, 172, 0.5);
+
 }
 .headers {
     display:flex;
@@ -518,8 +641,201 @@ display: block;
            margin: 0;
     justify-content: center;
     align-items: baseline;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     
     }
     
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+     
+    }
+    /* #home {
+      width: 100vw;
+      height: 100vh;
+      
+    } */
 
+    
+    .scrolling_box {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+      scroll-behavior: smooth;
+
+    }
+
+    section {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      
+    }
+    .arrow_down {
+      animation: changeColor 4s ease-in-out;
+      border: solid black 1px;
+    
+      border-radius: 5%;
+      width: 20px;
+      /* position: relative;
+      bottom: 4rem; */
+    }
+    .arrow_down2 {
+       width: 20px;
+       border: solid black 1px;
+    
+      border-radius: 5%;
+/*         
+       position: relative;
+       bottom: 4rem; */
+       
+       
+     }
+     .arrow_down3 {
+       width: 20px;
+       border: solid black 1px;
+    
+       border-radius: 5%;
+  
+       /* position: relative;
+      bottom: 4rem; */
+      
+       
+     }
+     .arrow_down4 {
+      /* border: solid rgb(255, 255, 255) 4px; */
+       width: 20px;
+       border: solid black 1px;
+    
+       border-radius: 5%;
+  
+       /* position: relative;
+      bottom: 4rem; */
+      
+       
+     }
+     .arrow_down5 {
+      /* border: solid rgb(255, 255, 255) 4px; */
+       width: 20px;
+       border: solid black 1px;
+    
+      border-radius: 5%;
+  
+       /* position: relative;
+      bottom: 4rem; */
+      
+       
+     }
+     .display_work {
+      /* animation: slide 2s ease-in-out; */
+      
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.7);
+     border: solid black 3px;
+     border-radius: 5%;
+     scroll-behavior: smooth;
+     
+
+     }
+    .display_work img {
+      border-radius: 1%;
+      margin: 1rem;
+      width: 25vw;
+      height: 70vh;
+      border: solid rgb(255, 255, 255, 0.9) 5px;
+      
+    }
+    .display_work img:hover {
+      scale: 1.05;
+      cursor: pointer;
+    }
+    #title_sec {
+      background-color: rgb(240, 248, 255,0.8);
+      font-size: 2rem;
+    }
+    
+    .cercles {
+      padding: 0;
+      margin: 0;
+    }
+    #cercleOne {
+      border-radius: 100%;
+    }
+
+    #cercleTwo {
+      border-radius: 100%;
+    }
+  .contact_form {
+    background-color: rgba(202, 207, 211, 0.9);
+    margin: 0;
+    border-radius: 2%;
+    border: solid white 4px;
+  }
+  .contact_form li {
+    background-color: rgb(39, 38, 38,0.7);
+    color: white;
+    border-radius: 2%;
+  }
+  #faq {
+    margin: 0;
+    padding: 0;
+  }
+  #faq li{
+    
+    font-size: 1.5rem;
+    font: bolder;
+    color: bisque;
+  }
+
+  #faq li p{
+    
+    font-size: 1rem;
+    font: bolder;
+    color: bisque;
+  }
+  .tohidemobile {
+    display:none;
+  }
+  .bankIdeas {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(210, 193, 131, 0.6);
+    margin: 0;
+    padding: 0;
+    
+  }
+  .bankIdeas img {
+   
+    background-color: aliceblue;
+    width: 15rem;
+    /* margin: 3rem; */
+ 
+    height:20rem;
+    border-radius: 1%;
+    border: solid white 2px;
+  }
+
+  .bankIdeas  a {
+   gap: 2rem;
+   margin: 1rem;
+    animation: fadeIn 2s ease-in-out;
+    background-color: rgb(126, 126, 126, 0.5);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2%;
+    border: solid white;
+  }
+  
 }

@@ -13,7 +13,7 @@
         <!-- MOBILE ONLY -->
          <!-- ############################# -->
             <ul class="headers">
-            <h3 class="title_header">Menu</h3>
+            
             
                           <svg class="svg_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
 <dialog class="cinzel-regular nested_headers"> 
@@ -38,10 +38,10 @@
         <!-- ########################## -->
         <!-- Desktop ONLY -->
          <!-- ############################# -->
-             <li class="sections_headers" id="one">Header1</li>
-             <li class="sections_headers" id="two">Header2</li>
-             <li class="sections_headers" id="three">Header3</li>
-             <li class="sections_headers" id="four">Contact</li>
+         <a href="#home"><li class="sections_headers" id="one">HOME</li></a>
+         <a href="#work"><li class="sections_headers" id="two">WORK</li></a>
+         <a href="#about"><li class="sections_headers" id="three">CONTACT</li></a>
+            <a href="#blog"><li class="sections_headers" id="four">BLOG</li></a>
              </ul>
 
          <!-- ########################## -->
@@ -52,7 +52,7 @@
                     <section id="home">
                         <h1 id="title_sec" class="cinzel-regular">Andreas Sousa - Developer</h1>
                     </section>
-                <a href="#work"><img class="arrow_down" src="./Image/Favicon/Navigation/arrow-down-solid.svg" alt="down"></a> 
+                <a hidden href="#work"><img class="arrow_down" src="./Image/Favicon/Navigation/arrow-down-solid.svg" alt="down"></a> 
 
                 <section id="work">
                     <!-- <div id="title" class="cinzel-regular"> -->
@@ -60,8 +60,8 @@
                     
                     
                     <div class="display_work">
-                      <a  id="event_circle" draggable="true" href="https://andresou06.github.io/Event_template/"><img src="./Image/Capture d'écran 2024-12-13 170509.png" alt="W1"><h3>Event Template</h3></a>
-                      <a hidden  id="blog_circle" draggable="true" href="https://andresou06.github.io/blog_template/"><img src="./Image/Capture d'écran 2024-12-13 170542.png" alt="W2"><h3>Blog Template</h3></a>
+                      <a  id="event_circle" href="https://andresou06.github.io/Event_template/"><img src="./Image/Capture d'écran 2024-12-13 170509.png" alt="W1"><h3>Event Template</h3></a>
+                      <a hidden  id="blog_circle"  href="https://andresou06.github.io/blog_template/"><img src="./Image/Capture d'écran 2024-12-13 170542.png" alt="W2"><h3>Blog Template</h3></a>
      
                     </div>
                     <span class="cercles">
@@ -71,7 +71,7 @@
                    
                     
                 </section>
-                <a href="#about" class="portfolio" ><img class="arrow_down2" src="./Image/Favicon/Navigation/arrow-down-solid.svg" alt="down"></a> 
+                <a hidden href="#about" class="portfolio" ><img class="arrow_down2" src="./Image/Favicon/Navigation/arrow-down-solid.svg" alt="down"></a> 
 
                 <!-- <section id="portfolio">
                     <h3 id="title_sec" class="cinzel-regular">PORTFOLIO</h3>
@@ -91,14 +91,14 @@
                         <h4>Common ask question?</h4>
                         <ul id="faq">
                             <li>How long does it take you to make a website ?
-                                <p>Can vary between one to two weeks depending on the complexity and the scale of the project.</p>
-                                <p>For project less than two pages can be done and delivered in less than 48h.</p>
+                                <p hidden id="asw1">Can vary between one to two weeks depending on the complexity and the scale of the project.</p>
+                                <p hidden id="asw2">For project less than two pages can be done and delivered in less than 48h.</p>
                             </li> 
                             <li>How can a website make the difference for me ?
-                                <p>Bringing you visibility in a professional, appealing and coherent way can really sets you apart from the crowd.</p>
+                                <p hidden id="asw3">Bringing you visibility in a professional, appealing and coherent way can really sets you apart from the crowd.</p>
                             </li>
                             <li>Who can make the most off of your website creations ?
-                                <p>Small business/ local-shops / artists / solopreneurs</p>
+                                <p hidden id="asw4">Small business/ local-shops / artists / solopreneurs</p>
                             </li>
                         </ul>
                     </div>
@@ -111,16 +111,19 @@
 
 
                 </section>
-                <a href="#blog" class="blog"><img class="arrow_down4" src="./Image/Favicon/Navigation/arrow-down-solid.svg" alt="down"></a> 
+                <a href="#blog" hidden class="blog"><img class="arrow_down4" src="./Image/Favicon/Navigation/arrow-down-solid.svg" alt="down"></a> 
 
                 <section id="blog">
                     <h3 id="title_sec" class="cinzel-regular">BLOG</h3>
+                    
+                        <h2 class="satisfy-regular" style="font: italic; background-color: rgba(210, 193, 131, 0.6);">A few Insights/Stories I share:</h2>
+                        
                     <div class="bankIdeas">
-                        <h2 class="satisfy-regular" style="font: italic;">A few Insights/Stories I share:</h2>
-                        <a href="https://andresou06.github.io/Mobile-First-Journey/one.html"><img src="./Image/story1 (1).png" alt="storyI"><p>Programming</p></a>
-                        <a href="https://andresou06.github.io/Mobile-First-Journey/five.html"><img src="./Image/story1 (2).png" alt="storyII"><p>Facilitator</p></a>
-                        <a href="https://andresou06.github.io/Mobile-First-Journey/three.html"><img src="./Image/story1 (3).png" alt="storyIII"><p>Resilience</p></a>
-                        <a href="https://andresou06.github.io/Mobile-First-Journey/two.html"><img src="./Image/story1 (4).png" alt="storyIIII"><p>Identity</p></a>
+                    
+                        <a href="https://andresou06.github.io/Mobile-First-Journey/one.html"><img src="./Image/story1-1.png" alt="storyI"><h3>Programming</h3></a>
+                        <a href="https://andresou06.github.io/Mobile-First-Journey/five.html"><img src="./Image/story1-2.png" alt="storyII"><h3>Facilitator</h3></a>
+                        <a href="https://andresou06.github.io/Mobile-First-Journey/three.html"><img src="./Image/story1-3.png" alt="storyIII"><h3>Resilience</h3></a>
+                        <a href="https://andresou06.github.io/Mobile-First-Journey/two.html"><img src="./Image/story1-4.png" alt="storyIIII"><h3>Identity</h3></a>
                     </div>
 
 
