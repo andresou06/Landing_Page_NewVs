@@ -145,17 +145,17 @@ body {
           
             border-radius: 5%;
             width: 40px;
-            position: relative;
-            bottom: 4rem;
+            /* position: relative;
+            bottom: 4rem; */
           }
           .arrow_down2 {
              width: 40px;
              border: solid black 1px;
           
             border-radius: 5%;
-        
+/*         
              position: relative;
-             bottom: 4rem;
+             bottom: 4rem; */
              
              
            }
@@ -165,8 +165,8 @@ body {
           
              border-radius: 5%;
         
-             position: relative;
-            bottom: 4rem;
+             /* position: relative;
+            bottom: 4rem; */
             
              
            }
@@ -177,8 +177,8 @@ body {
           
              border-radius: 5%;
         
-             position: relative;
-            bottom: 4rem;
+             /* position: relative;
+            bottom: 4rem; */
             
              
            }
@@ -189,8 +189,8 @@ body {
           
             border-radius: 5%;
         
-             position: relative;
-            bottom: 4rem;
+             /* position: relative;
+            bottom: 4rem; */
             
              
            }
@@ -199,11 +199,12 @@ body {
             display: flex;
             background-color: rgba(0, 0, 0, 0.7);
            border: solid black 3px;
+           scroll-behavior: smooth;
 
            }
           .display_work img {
             margin: 1rem;
-            width: 60vw;
+            width: 80vw;
             height: 60vh;
             border: solid rgb(255, 255, 255, 0.7) 3px;
           }
@@ -215,7 +216,15 @@ body {
          
           }
           .cercles {
-            display: inline;
+            padding: 0;
+            margin: 0;
+          }
+          #cercleOne {
+            border-radius: 100%;
+          }
+
+          #cercleTwo {
+            border-radius: 100%;
           }
         
 
