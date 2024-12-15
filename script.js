@@ -53,9 +53,14 @@ cercleTwo.addEventListener('click', () => {
 
 
 
-const scroll_work = document.querySelector(".display_work");
+blog_template.addEventListener('drag', () => {
+        event_template.style.display = 'block';
+        blog_template.style.display = 'none';
+})
 
-scroll_work.addEventListener('drag', () => {
+
+
+event_template.addEventListener('drag', () => {
         event_template.style.display = 'none';
         blog_template.style.display = 'block';
 })
