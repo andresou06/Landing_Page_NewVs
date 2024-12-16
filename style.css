@@ -255,7 +255,9 @@ body {
         } */
 
         #faq li {
-          font-size: 1rem;
+          font-size: 1.3rem;
+          margin: 1rem;
+          border: solid white 2px;
         }
         #faq  p{
 
@@ -576,7 +578,7 @@ section {
 }
 #title_sec {
   background-color: rgb(240, 248, 255,0.8);
-
+font-size: 2rem;
 }
 .cercles {
   padding: 0;
@@ -608,6 +610,19 @@ border-radius: 2%;
 
 font-size: 1rem;
 font: bolder;
+}
+#faq p {
+font-size: 1.3rem;
+font: bolder;
+color: rgb(0, 0, 0);
+background-color: hsl(182, 25%, 50%,0.3);
+padding: 1rem;
+}
+#faq li {
+  border-radius: 10%;
+  font-size: 1.3rem;
+  margin: 1rem;
+  border: solid white 2px;
 }
 .bankIdeas {
 display: flex;
@@ -899,12 +914,12 @@ background-color: rgba(99, 140, 172, 0.9);
     background-color: hsl(182, 25%, 50%,0.3);
     padding: 1rem;
   }
-  #faq li:hover {
+  /* #faq li:hover {
     .contact_form {
       animation: fadeIn 2s ease-in-out;
-    }
+    } */
 
-  }
+  
 
   .bankIdeas {
     
