@@ -66,3 +66,75 @@ event_template.addEventListener('drag', () => {
 })
 
 
+// ####################################################
+
+// Scroll event between sections 
+
+//######################################"""""
+
+const home_sec = document.querySelector('#home');
+const work_sec = document.querySelector('#work');
+const contact_sec = document.querySelector('#about');
+const blog_sec = document.querySelector('#blog');
+
+
+// home_sec.addEventListener('click', () => {
+//         home_sec.scroll(work_sec);
+// })
+
+
+// #############################################
+
+//  FAQ
+
+const quest1 = document.querySelector('#quest1');
+const quest2 = document.querySelector('#quest2');
+const quest3 = document.querySelector('#quest3');
+
+const answ1 =document.querySelector('#asw1');
+const answ2 =document.querySelector('#asw2');
+const answ3 =document.querySelector('#asw3');
+
+quest1.addEventListener('click', () => {
+        answ1.style.display = 'block';
+        answ2.style.display = 'none';
+        answ3.style.display = 'none';
+
+})
+
+
+quest1.addEventListener('mouseover', () => {
+        answ1.style.display = 'block';
+        answ2.style.display = 'none';
+        answ3.style.display = 'none';
+})
+//############################################""
+quest2.addEventListener('click', () => {
+        answ1.style.display = 'none';
+        answ2.style.display = 'block';
+        answ3.style.display = 'none';
+
+})
+
+
+quest2.addEventListener('mouseover', () => {
+        answ1.style.display = 'none';
+        answ2.style.display = 'block';
+        answ3.style.display = 'none';
+})
+
+//#############################################
+
+quest3.addEventListener('click', () => {
+        answ1.style.display = 'none';
+        answ2.style.display = 'none';
+        answ3.style.display = 'block';
+
+})
+
+
+quest3.addEventListener('mouseover', () => {
+        answ1.style.display = 'none';
+        answ2.style.display = 'none';
+        answ3.style.display = 'block';
+})
