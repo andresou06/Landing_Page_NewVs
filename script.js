@@ -31,23 +31,16 @@ const blog_template = document.querySelector('#blog_circle');
 cercleOne.addEventListener('click', () => {
         event_template.style.display = 'block';
         blog_template.style.display = 'none';
-        if (event_template.style.display = 'block') {
-                cercleOne.style.background = 'blue';
-        } else {
-                cercleOne.style.background = 'transparent';
-        }
+        cercleOne.style.background = 'red'
+        cercleTwo.style.background = 'white'
         
-        if (event_template.style.display != 'block') {
-                cercleOne.style.background = 'transparent';
-        }
 })
 
 cercleTwo.addEventListener('click', () => {
         event_template.style.display = 'none';
         blog_template.style.display = 'block';
-        if (blog_template.style.display = 'block') {
-                cercleTwo.style.background = 'blue';
-        }
+        cercleOne.style.background = 'white'
+        cercleTwo.style.background = 'red'
 })
 
 
@@ -66,6 +59,23 @@ event_template.addEventListener('drag', () => {
 })
 
 
+cercleOne.addEventListener('mouseover', () => {
+        event_template.style.display = 'block';
+        blog_template.style.display = 'none';
+         cercleOne.style.background = 'red'
+        cercleTwo.style.background = 'white'
+      
+})
+
+cercleTwo.addEventListener('mouseover', () => {
+        event_template.style.display = 'none';
+        blog_template.style.display = 'block';
+         cercleOne.style.background = 'white'
+        cercleTwo.style.background = 'red'
+        
+})
+
+
 // ####################################################
 
 // Scroll event between sections 
@@ -78,14 +88,10 @@ const contact_sec = document.querySelector('#about');
 const blog_sec = document.querySelector('#blog');
 
 
-// home_sec.addEventListener('click', () => {
-//         home_sec.scroll(work_sec);
-// })
-
 
 // #############################################
 
-//  FAQ
+//  FAQ Mouseover 
 
 const quest1 = document.querySelector('#quest1');
 const quest2 = document.querySelector('#quest2');
@@ -140,12 +146,19 @@ quest3.addEventListener('mouseover', () => {
         
 })
 
-// focus is not working 
 
-work_sec.addEventListener('mouseover', () => {
-        answ1.style.display = 'none';
-        answ2.style.display = 'none';
-        answ3.style.display = 'none';
-})
+// Things to do to Improve 
+
+// ###################################################
+// To Detect sections when scrolling
+
+
 
 // focus is not working
+
+// #################################################
+// To make a Carrousel
+
+
+
+// ############################################################
