@@ -32,7 +32,7 @@ cercleOne.addEventListener('click', () => {
         event_template.style.display = 'block';
         blog_template.style.display = 'none';
         if (event_template.style.display = 'block') {
-                cercleOne.style.background = 'white';
+                cercleOne.style.background = 'blue';
         } else {
                 cercleOne.style.background = 'transparent';
         }
@@ -46,7 +46,7 @@ cercleTwo.addEventListener('click', () => {
         event_template.style.display = 'none';
         blog_template.style.display = 'block';
         if (blog_template.style.display = 'block') {
-                cercleTwo.style.background = 'white';
+                cercleTwo.style.background = 'blue';
         }
 })
 
@@ -137,4 +137,15 @@ quest3.addEventListener('mouseover', () => {
         answ1.style.display = 'none';
         answ2.style.display = 'none';
         answ3.style.display = 'block';
+        
 })
+
+// focus is not working 
+
+work_sec.addEventListener('mouseover', () => {
+        answ1.style.display = 'none';
+        answ2.style.display = 'none';
+        answ3.style.display = 'none';
+})
+
+// focus is not working

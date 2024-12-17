@@ -23,8 +23,9 @@ html {
 }
 
 @keyframes changeColor {
-  from {border: solid black 3px;}
-  to {border: solid white 3px;}
+  from {border: solid black 3px; background-color: black;}
+  to {border: solid rgb(254, 254, 254, 0.5) 3px; background-color: rgba(99, 140, 172, 0.6);}
+  
 }
 
 /* @keyframes {
@@ -109,6 +110,19 @@ body {
           .headers svg:hover {
             cursor: pointer;
             opacity: 0.8;
+          }
+
+          #work {
+            background-color: rgba(10, 10, 10, 0.6);
+  
+          }
+
+          #about {
+            background-color: rgba(99, 140, 172, 0.9);
+          }
+
+          #blog {
+            background-color: rgba(210, 193, 131, 0.6);
           }
 
           main {
@@ -211,7 +225,7 @@ body {
           .display_work img {
             border-radius: 2%;
             margin: 1rem;
-            width: 80vw;
+            width: 90vw;
             height: 60vh;
             border: solid rgb(255, 255, 255, 0.7) 3px;
           }
@@ -448,8 +462,12 @@ display: none;
 }
 
 .sections_headers {
-font-style: 1.5rem;
+
 display: block;
+animation: changeColor 4s ease-in-out;
+background-color: rgba(99, 140, 172, 0.9);
+border: solid rgb(254, 254, 254, 0.5) 3px;
+
 }
 
 main {
@@ -478,11 +496,20 @@ main {
   left: 0;
   right:0;
 }
-/* #home {
-  width: 100vw;
-  height: 100vh;
-  
-} */
+#work {
+  background-color: rgba(10, 10, 10, 0.6);
+
+}
+
+#about {
+  background-color: rgba(99, 140, 172, 0.9);
+}
+
+#blog {
+  background-color: rgba(210, 193, 131, 0.6);
+}
+
+
 
 
 .scrolling_box {
@@ -698,6 +725,7 @@ body {
       margin: 0;
       padding: 0;
       z-index: 9999;
+     
 
 }
 
@@ -732,25 +760,41 @@ body {
 }
 
 .sections_headers {
+  animation: changeColor 4s ease-in-out;
         font-style: 1.5rem;
 display: block;
 background-color: rgba(99, 140, 172, 0.9);
+border: solid rgb(254, 254, 254, 0.5) 3px;
 
 }
 .headers {
     display:flex;
     padding: 2rem;
-    gap: 3rem;
+    gap: 4rem;
+    font-size: 2rem;
            margin: 0;
     justify-content: center;
     align-items: baseline;
-    /* z-index: 999; 
-   position: fixed;
-    top: 20px;
+   
+   /* position: fixed;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 1; */
+}
+
+#work {
+  background-color: rgba(10, 10, 10, 0.6);
+
+}
+
+#about {
+  background-color: rgba(99, 140, 172, 0.6);
+}
+
+#blog {
+  background-color: rgba(210, 193, 131, 0.6);
 }
 
 .desktop-adjust {
@@ -784,7 +828,7 @@ background-color: rgba(99, 140, 172, 0.9);
       display: grid;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      height: 100%;
       
     }
     .arrow_down {
@@ -847,7 +891,7 @@ background-color: rgba(99, 140, 172, 0.9);
       
       display: flex;
       background-color: rgba(0, 0, 0, 0.7);
-     border: solid black 3px;
+     border: solid hsl(0, 0%, 100%,0.6) 3px;
     
      scroll-behavior: smooth;
      
@@ -857,7 +901,7 @@ background-color: rgba(99, 140, 172, 0.9);
       border-radius: 1%;
       margin: 1rem;
       width: 25vw;
-      height: 70vh;
+      height: 60vh;
       border: solid rgb(255, 255, 255, 0.9) 5px;
       
     }
@@ -866,7 +910,7 @@ background-color: rgba(99, 140, 172, 0.9);
       cursor: pointer;
     }
     #title_sec {
-      background-color: rgb(240, 248, 255,0.8);
+      background-color: rgb(255, 255, 255);
       font-size: 2rem;
     }
     
@@ -876,10 +920,13 @@ background-color: rgba(99, 140, 172, 0.9);
     }
     #cercleOne {
       border-radius: 100%;
+      background-color: white;
     }
 
     #cercleTwo {
       border-radius: 100%;
+      background-color: white;
+
     }
   .contact_form {
     background-color: rgba(202, 207, 211, 0.9);
@@ -926,7 +973,7 @@ background-color: rgba(99, 140, 172, 0.9);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(210, 193, 131, 0.6);
+    /* background-color: rgba(210, 193, 131, 0.6); */
     margin: 0;
     padding: 0;
     
