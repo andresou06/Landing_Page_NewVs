@@ -242,6 +242,7 @@ body {
             padding: 0;
             margin: 0;
           }
+          
 
           #cercleOne {
             border-radius: 100%;
@@ -359,13 +360,6 @@ width: 40px;
 
 }
 
-
-
-
-/* #####################################*/
-/* Blend Desktop and Mobile
-/* #####################################*/
-
 ul {
   list-style: none;
   margin: 0;
@@ -401,6 +395,10 @@ video {
   background-color: aqua;
 }
 
+#message_cercle {
+  background-color: black;
+  color: aliceblue;
+}
  
 
 
@@ -679,9 +677,9 @@ background-color: rgba(210, 193, 131, 0.6);
 }
 .bankIdeas img {
 background-color: aliceblue;
-width: 40vw;
+width: 30vw;
 margin: 1rem;
-height: 40vh;
+height: 30vh;
 border-radius: 2%;
 border: solid white 2px;
 }
@@ -706,7 +704,7 @@ border: solid white;
   justify-content: center;
 }
 .footer_link img{
-  width: 2rem;
+  width: 1.5rem;
   margin: 1rem;
   border-radius: 100%;
   background-color: white;
@@ -714,6 +712,10 @@ border: solid white;
 .footer_link img:hover {
   cursor: pointer;
   background-color: brown;
+}
+footer {
+  position: relative;
+  top: 20%;
 }
 }
 
@@ -1017,7 +1019,7 @@ border: solid rgb(254, 254, 254, 0.5) 3px;
   .bankIdeas img {
    
     background-color: aliceblue;
-    width: 15rem;
+    width: 15vw;
     /* margin: 3rem; */
  
     height:20rem;
@@ -1043,6 +1045,7 @@ border: solid rgb(254, 254, 254, 0.5) 3px;
     display: flex;
     justify-content: center;
   }
+  
   .footer_link img{
     width: 2rem;
     margin: 1rem;

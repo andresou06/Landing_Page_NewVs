@@ -1,3 +1,17 @@
+
+// ####################################################
+
+// Scroll event between sections 
+
+//######################################"""""
+
+const home_sec = document.querySelector('#home');
+const work_sec = document.querySelector('#work');
+const contact_sec = document.querySelector('#about');
+const blog_sec = document.querySelector('#blog');
+//####################################################
+
+
 const svg_btn = document.querySelector('.svg_btn');
 
 const nested_headers = document.querySelector('.nested_headers');
@@ -75,17 +89,8 @@ cercleTwo.addEventListener('mouseover', () => {
         
 })
 
-
-// ####################################################
-
-// Scroll event between sections 
-
-//######################################"""""
-
-const home_sec = document.querySelector('#home');
-const work_sec = document.querySelector('#work');
-const contact_sec = document.querySelector('#about');
-const blog_sec = document.querySelector('#blog');
+// ################################################
+// Pop DIALOG
 
 
 
