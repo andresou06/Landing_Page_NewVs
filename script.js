@@ -37,12 +37,16 @@ videoSpeed.playbackRate = 0.90;
 
 const cercleOne = document.querySelector('#cercleOne');
 const cercleTwo = document.querySelector('#cercleTwo');
+const cercleThree = document.querySelector('#cercleThree');
 
+const resto = document.querySelector("#resto_circle")
 const event_template = document.querySelector('#event_circle');
 const blog_template = document.querySelector('#blog_circle');
 
 
 cercleOne.addEventListener('click', () => {
+        
+        resto.style.display = 'block';
         event_template.style.display = 'block';
         blog_template.style.display = 'none';
         cercleOne.style.background = 'red'
@@ -51,12 +55,25 @@ cercleOne.addEventListener('click', () => {
 })
 
 cercleTwo.addEventListener('click', () => {
+        resto.style.display = "none";
         event_template.style.display = 'none';
         blog_template.style.display = 'block';
         cercleOne.style.background = 'white'
         cercleTwo.style.background = 'red'
+        cercleThree.style.background = 'white';
+
 })
 
+cercleThree.addEventListener('click', () => {
+        
+        resto.style.display = "block"
+        event_template.style.display = 'none';
+        blog_template.style.display = 'none';
+        cercleOne.style.background = 'white';
+        cercleTwo.style.background = 'white';
+        cercleThree.style.background = 'red';
+
+})
 
 
 
@@ -74,20 +91,37 @@ event_template.addEventListener('drag', () => {
 
 
 cercleOne.addEventListener('mouseover', () => {
+        resto.style.display = "none";
         event_template.style.display = 'block';
         blog_template.style.display = 'none';
-         cercleOne.style.background = 'red'
-        cercleTwo.style.background = 'white'
+         cercleOne.style.background = 'red';
+        cercleTwo.style.background = 'white';
+        cercleThree.style.background = 'white';
+
       
 })
 
 cercleTwo.addEventListener('mouseover', () => {
+         resto.style.display = "none";
         event_template.style.display = 'none';
         blog_template.style.display = 'block';
-         cercleOne.style.background = 'white'
-        cercleTwo.style.background = 'red'
+         cercleOne.style.background = 'white';
+        cercleTwo.style.background = 'red';
+        cercleThree.style.background = 'white';
+
         
 })
+
+cercleThree.addEventListener('mouseover', () => {
+        resto.style.display = "block"
+        event_template.style.display = 'none';
+        blog_template.style.display = 'none';
+        cercleOne.style.background = 'white';
+        cercleTwo.style.background = 'white';
+        cercleThree.style.background = 'red';
+
+})
+
 
 // ################################################
 // Pop DIALOG

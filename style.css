@@ -246,10 +246,18 @@ body {
 
           #cercleOne {
             border-radius: 100%;
+            background-color: white;
           }
 
           #cercleTwo {
             border-radius: 100%;
+            background-color: white;
+
+          }
+          #cercleThree {
+            border-radius: 100%;
+            background-color: white;
+
           }
         .contact_form {
           background-color: rgba(202, 207, 211, 0.9);
@@ -965,6 +973,10 @@ border: solid rgb(254, 254, 254, 0.5) 3px;
       border-radius: 100%;
       background-color: white;
 
+    }
+    #cercleThree {
+      border-radius: 100%;
+      background-color: white;
     }
   .contact_form {
     background-color: rgba(202, 207, 211, 0.9);
