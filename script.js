@@ -46,7 +46,7 @@ const blog_template = document.querySelector('#blog_circle');
 
 cercleOne.addEventListener('click', () => {
         
-        resto.style.display = 'block';
+        resto.style.display = 'none';
         event_template.style.display = 'block';
         blog_template.style.display = 'none';
         cercleOne.style.background = 'red'
